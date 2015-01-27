@@ -586,7 +586,7 @@ function handleDomLoaded() {
 
   setupFrames();
 
-  addFontStyle();
+  //addFontStyle();
   addGeneralStyle();
   addPrettify();
   addEventListeners();
