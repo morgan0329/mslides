@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hybrid框架选择</title>
+    <meta charset='utf-8'>
+    <script src='./js/slides.js'></script>
+  </head>
+  
+  <style>
+    /* Your individual styles here, or just use inline styles if that’s what you want. */
+  </style>
+
+  <body style='display: none'>
+    <section class='slides layout-regular template-default'>
+      <article class='biglogo'>
+      </article>
+
+      <article>
+        <h1>
+          About Hybrid Web Development
+          <br>
+          关于移动端开发框架的选择
+        </h1>
+        <p>
+          Morgan Liao
+          <br>
+           May 11th, 2015
+        </p>
+      </article>
+	  
+      <article>
+        <h3>Agent</h3>
+        <p>
+          1 框架轻重的选择<br>
+		  2 MV* Framework<br>
+		  3 重的框架（fullstack）<br>
+		  4 补充一点知识<br>
+        </p>
+      </article>
+	  
+      <article>
+        <h3>框架轻重的选择</h3>
+		<h4>轻的框架（被称为libary）</h4>
+        <p>zepto.js: http://zeptojs.com/ 或 http://www.zeptojs.cn/</p>
+		从源代码上看，zepto是基于jquery lite，专门正对移动端写的一套很轻量的js library.
+		<p>hammer.js: 主要是封装移动端的Js或者是touch事件的一个library. http://hammerjs.github.io/</p>
+      </article>
+	  
+      <article>
+        <h3>MV* Framework</h3>
+		<p>Angular.js: Google 2009年出来的 http://angularjs.org/  or  http://docs.angularjs.cn/api</p>
+        <p>backbone.js(和underscore联用的）: 2010年，出来的一套专注于做客户端mvc的框架。经过5年不断升级已经比较成熟了。http://backbonejs.org/</p>
+		<p>Ember.js: 用handlerbar作为client template.   http://emberjs.com/</p>
+		<p>React.js: Facebook 这个框架听说比Angular好很多，但是比较新还不太成熟。http://facebook.github.io/react/</p>
+		<p>knockout.js: http://knockoutjs.com/</p>
+		<p>这里有很多MV* Framework比较：http://todomvc.com/</p>
+      </article>
+	  
+      <article>
+        <h3>重的框架（fullstack） Mobile Optimized</h3>
+		<p>Jquery Mobile: 这是一个很重的框架，修改了Jquery的代码，同时加入了自己的整套UI框架。只不过他的UI样式显得有些旧。</p>
+        <p>famo.us+angularjs: http://famo.us/?new</p>
+		<p>onsen UI: 用bower作为包管理的工具。跟ionic很相近，也是提供全套解决方案，同时页面扁平化，现代感。http://onsen.io/</p>
+		<p>framework7: 用handlerbar作为client template. 用requirejs作为包加载工具。页面做得很现代化。 http://www.idangero.us/framework7/</p>
+		<p>ali mui: http://spmjs.io/docs/alice-mobile/</p>
+		<p>ionic+angularjs+cordova: http://www.ionicframework.com/</p>
+		<p>Mobile Angular UI: 它是集成bootstrap + angular Js的移动端框架。 http://mobileangularui.com/</p>
+      </article>
+	  
+      <article>
+        <h3>补充一点知识，拿Java做对比。</h3>
+        <p>Java中的包依赖管理: maven VS   npm或者bower</p>
+		<p>Java中的选择性地加载: 类开头的import语句  VS  requirejs或者seajs</p>
+		<p>Java中的打包工具：maven,ant,ivy  VS grunt或者gulp</p>
+		<p>Java中的servlet容器：tomcat/jboss  VS  nodejs的http server</p>
+		<p>Java中的页面模板:Velocity,Freemarker,Thymeleaf VS handlerbar,而类似于angular就不需要什么模板了</p>
+		
+		一个成熟的Web开发语言都差不多，都会有这几个要素的。
+      </article>
+	  
+      <article>
+        <h3>
+          Thank you!
+        </h3>
+        
+        <ul>
+          <li>
+            <a href='http://www.xiaosq.com/wiki/doku.php?id=html5:hybrid-compare'>hybrid-compare</a>
+        </ul>
+      </article>
+
+    </section>
+
+  </body>
+</html>
